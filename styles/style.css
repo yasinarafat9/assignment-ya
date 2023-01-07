@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.btn-primary{
+    height: 64px;
+    width: fit-content;
+    padding: 5px 30px;
+    font-size: 28px;
+    border: none;
+    border-radius: 5px;
+}
+
+                                    /* Header Styles  */
+
+.header-banner{
+    margin: auto;    
+    background-image: url(../images/banner/banner3.png);
+    height: 808px;
+    width: 1600px;
+}
+.header-banner-texts{   
+    width: 500px;
+    text-align: right;
+    margin-left: 900px;
+    padding-top: 200px;
+}
+.header-banner-texts h1{
+    font-size: 65px;
+    color: white;
+}
+.header-banner-texts p{   
+    font-size: 20px;
+    color: white;
+    margin: 30px 0px;
+}
+
+
+                                     /* main sections */
+main h2{    
+        font-size: 40px;
+        padding: 10px;
+        font-weight: bold;
+}
+main h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+main p{
+    color: #757575;
+    font-size: 20px;
+    padding: 10px;
+}
+
+                    /* women section */
+.women{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 200px;
+}
+.women img{
+    width: 570px;
+}
+.women-texts{
+    width: 416px;  
+    height: 400px;  
+    align-items: left;
+}
+.women-texts ol{
+    list-style-image: url(../images/icons/green-cheakmark2.png);
+    padding: 10px;
+    padding-left: 10px;  
+    margin-left: 30px;
+}
+.women-texts li{
+    font-size: 20px;
+    color: #757575;
+}
+
+                /* Knowledge section */
+.knowledge{
+    margin-bottom: 100px;
+}
+.knowledge-container{
+    display:inline;
+    margin: 100px 0px;
+}
+.knowledge-img{
+    background-image:url('../images/knowledge1.jpg');
+    width: 1400px;
+    height: 900px;
+    margin: 20px auto;  
+    background-repeat: no-repeat;
+}
+.knowledge .texts{
+    padding: 100px;
+    width: 500px;   
+}
+.knowledge .texts h2{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+.knowledge .texts p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+                /* My Plans section */
+.my-plans{
+    margin: 100px 0px;
+}
+.my-plans h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.my-plan-containers{
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ gap: 50px;
+}
+.plan-container{
+    display: block;
+    margin: 20px;   
+}
+
+                /* watch and gradient */
+.watch-overlay{     
+    width: 1140px;
+    height: 300px; 
+    margin: auto;
+    margin-bottom: 200px;   
+}
+.watch{
+     background-image: url(../images/watch.png);
+     width: 1140px;
+     height: 300px; 
+     position: absolute;        
+     margin:  auto;
+     align-items: center;
+     justify-content: center;       
+}
+.overlay{
+    background-image: url(../images/gradient1.png);
+    width: 1140px;
+    height: 300px;
+    opacity: 0.9; 
+    position: absolute;   
+    margin:  auto ;
+    align-items: center;
+    justify-content: center;   
+}
+.watch-overlay h2{
+    color: white;
+    padding: 34px ;
+}
+.watch-overlay .btn-primary{
+    margin-left: 34px;
+}
+
+
+                                    /* Footer Styles */
+
+.footer-background{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(31, 32, 32);
+}
+.two-sides{
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+    padding: 100px;   
+    max-width: 2000px;
+}
+.future{
+    display: block;
+    width: 500px;
+}
+ .icons{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 10px;
+}
+.subscribe{
+    display: block;
+}
+.subscribe h2{    
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.subscribe .email{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid white;
+    background: none;
+    border-radius: 5px;    
+}
+.subscribe .btn-primary{
+    background-color: rgb(0, 104, 240);
+    margin: 30px 0px;
+}
+footer h2{
+    color: white;    
+    font-size: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+footer p{
+    color: #d3d1d1;
+    font-size: 18px;
+    padding: 10px;
+}
